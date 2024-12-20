@@ -76,7 +76,7 @@ namespace EntrepreneurshipProjectPlugin
                                 {
                                     if (entity.Contains("new_stage"))
                                     {
-                                        //check if stage value is Interview.
+                                        //check if stage value is Interviewcomments.
                                         if (((OptionSetValue)entity["new_stage"]).Value == 100000003)
                                         {
                                             //Query 2 check the Interview Schedule record
