@@ -79,7 +79,7 @@ namespace EntrepreneurshipProjectPlugin
                                         //check if stage value is Interviewcomments.
                                         if (((OptionSetValue)entity["new_stage"]).Value == 100000003)
                                         {
-                                            //Query 2 check the Interview Schedule record
+                                            //Query 2 check the Interview Schedule records.
                                             QueryExpression qe = new QueryExpression("new_interviewschedule")
                                             {
                                                 ColumnSet = new ColumnSet(true),
