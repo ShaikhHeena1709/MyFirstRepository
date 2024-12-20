@@ -63,7 +63,7 @@ namespace EntrepreneurshipProjectPlugin
                                 Entity simahEntity = result.Entities[0];
                                 int creditScore = (int)simahEntity.Attributes["new_creditscore"];
 
-                                //share the value of credit score through shared variable.
+                                //share the value of credit score through shared variables.
                                 context.SharedVariables.Add("new_creditscore", creditScore);
 
                                 //check credit score if it is 80 above.
