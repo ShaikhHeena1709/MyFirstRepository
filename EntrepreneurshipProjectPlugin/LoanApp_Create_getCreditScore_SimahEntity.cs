@@ -95,7 +95,7 @@ namespace EntrepreneurshipProjectPlugin
                                             //if there is no record found in interview schedule.
                                             if (InterviewsRecords.Entities.Count == 0)
                                             {
-                                                throw new InvalidPluginExecutionException("Please, First schedule an interview for Entrepreneur. ");
+                                                throw new InvalidPluginExecutionException("Please sir, First schedule an interview for Entrepreneur. ");
                                             }
                                         }
                                     }
